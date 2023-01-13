@@ -9,8 +9,8 @@ delivery: "static"
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
-title: "TBC Workshop Title"
-form_title: "TBC+Workshop+Title" # This is required for the surveys
+title: "Introductory Research Software Development"
+form_title: "Introductory+Research+Software+Development" # This is required for the surveys
 
 # Email address, no mailto:
 email: "rsginfo@soton.ac.uk"
@@ -18,11 +18,11 @@ logo_site: "https://rsgsoton.net"
 
 # For static delivery this section can all be ignored ==================================================================
 # Specify the location of the workshop
-venue: "TBC"           # name of location use "online" if online
+venue: "online"           # name of location use "online" if online
 address: "TBC"         # address of location or url of platform
-platform-name: "TBC"   # name of online platform e.g. Teams, Zoom e.t.c
-country: "TBC"         # e.g. gb
-language: "TBC"        # e.g. en
+platform-name: "Teams"   # name of online platform e.g. Teams, Zoom e.t.c
+country: "gb"         # e.g. gb
+language: "en"        # e.g. en
 latitude: "50.909698"    # latitude of location (Soton: 50.909698)
 longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 
@@ -35,10 +35,10 @@ enddate: "TBC"          # e.g. YYYY-MM-DD
 # Specify the details of the instructors and helpers
 # Can be list, or single string
 instructor:
-  - "Instructor 1"
+  - "Philippa Broadbent"
   - "Instructor 2"
 instructor-email:
-  - "instructor1@domain.com"
+  - "p.k.broadbent@soton.ac.uk"
   - "instructor2@domain.com"
 helper:
   - "Helper 1"
@@ -47,7 +47,6 @@ helper:
 
 # See https://github.com/Southampton-RSG-Training/setup-documents for setup instructions.
 setup_docs:
-  - remote_desktop.md
 
 # Details about the lessons
 lessons:
@@ -67,14 +66,6 @@ lessons:
     start-time: 15:00
     order: 2
 
-  - title: Managing Academic Software Development
-    gh-name: project-novice
-    type: episode
-    branch: main
-    date: 10 January 2022
-    start-time: 9:30 am
-    order: 3
-
   - title: Automating Tasks with the Unix Shell  # Lesson title
     org-name: Southampton-RSG-Training           # Name of the GitHub organisation (or individual) the lesson is in defaults to Southampton-RSG-Training
     gh-name: shell-novice                        # Name of the GitHub repository for the lesson at https://github:com/{org-name}:
@@ -82,7 +73,7 @@ lessons:
     branch: main                                 # Set the branch of the repository to use, useful for lesson customization
     date: 8 January 2022                         # The date of the lesson                   # date and start-time are required for z
     start-time: 10:30 am                         # The start time of the lesson             # 'kind: workshop'
-    order: 4                                     # The position of the lesson in the course # order is required for 'delivery: static'
+    order: 3                                     # The position of the lesson in the course # order is required for 'delivery: static'
 
   - title: Version Control with git
     gh-name: git-novice
@@ -90,7 +81,7 @@ lessons:
     branch: main
     date: 9 January 2022
     start-time: 8:30 am
-    order: 5
+    order: 4
 
   - title: Building Programs with Python
     gh-name: python-novice
@@ -102,21 +93,21 @@ lessons:
     start-time:
       - 10:00 am
       - 10:00 am
-    order: 6
+    order: 5
 
-#  - title: Data Analysis and Visualization in R
-#    gh-name: r-novice
-#    type: episode_r
-#    branch: main
-#    date:
-#      - 15 January 2022
-#      - 16 January 2022
-#      - 17 January 2022
-#    start-time:
-#      - 15:00
-#      - 15:00
-#      - 15:00
-#    order: 7
+ - title: Data Analysis and Visualization in R
+   gh-name: r-novice
+   type: episode_r
+   branch: main
+   date:
+     - 15 January 2022
+     - 16 January 2022
+     - 17 January 2022
+   start-time:
+     - 15:00
+     - 15:00
+     - 15:00
+   order: 6
 
 ###
 # It is unlikely you need to modify the values below this line
