@@ -51,16 +51,16 @@ lessons:
     gh-name: spreadsheets
     type: episode
     branch: main
-    date: 13 January 2022
-    start-time: 15:00
+    date: 6 March 2023
+    start-time: 09:30
     order: 1
 
   - title: Data Cleaning with OpenRefine
     gh-name: openrefine-data-cleaning
     type: episode
     branch: main
-    date: 14 January 2022
-    start-time: 15:00
+    date: 7 March 2023
+    start-time: 09:30
     order: 2
 
   - title: Automating Tasks with the Unix Shell  # Lesson title
@@ -68,43 +68,51 @@ lessons:
     gh-name: shell-novice                        # Name of the GitHub repository for the lesson at https://github:com/{org-name}:
     type: episode                                # Currently only 'episode' or 'episode_r' is valid
     branch: main                                 # Set the branch of the repository to use, useful for lesson customization
-    date: 8 January 2022                         # The date of the lesson                   # date and start-time are required for z
-    start-time: 10:30 am                         # The start time of the lesson             # 'kind: workshop'
+    date: 13 March 2023                          # The date of the lesson                   # date and start-time are required for z
+    start-time: 09:30                            # The start time of the lesson             # 'kind: workshop'
     order: 3                                     # The position of the lesson in the course # order is required for 'delivery: static'
 
   - title: Version Control with git
     gh-name: git-novice
     type: episode
     branch: main
-    date: 9 January 2022
-    start-time: 8:30 am
+    date: 14 March 2023
+    start-time: 09:30
     order: 4
+    
+  - title: Managing Academic Software Development
+    gh-name: project-novice
+    type: episode
+    branch: main
+    date: 15 March 2023
+    start-time: 09:30
+    order: 5
 
   - title: Building Programs with Python
     gh-name: python-novice
     type: episode
     branch: main
     date:
-      - 11 January 2022
-      - 12 January 2022
+      - 20 March 2023
+      - 21 March 2023
     start-time:
-      - 10:00 am
-      - 10:00 am
-    order: 5
+      - 09:30
+      - 09:30
+    order: 6
 
- - title: Data Analysis and Visualization in R
-   gh-name: r-novice
-   type: episode_r
-   branch: main
-   date:
-     - 15 January 2022
-     - 16 January 2022
-     - 17 January 2022
-   start-time:
-     - 15:00
-     - 15:00
-     - 15:00
-   order: 6
+  - title: Data Analysis and Visualization in R
+    gh-name: r-novice
+    type: episode_r
+    branch: main
+    date:
+      - 27 March 2023
+      - 28 March 2023
+      - 29 March 2023
+    start-time:
+      - 09:30
+      - 09:30
+      - 09:30
+    order: 7
 
 ###
 # It is unlikely you need to modify the values below this line
