@@ -1479,11 +1479,9 @@ correct names of the columns.
 > > 
 > {: .solution}
 > 
-> n\_rows \<- nrow(surveys)
+>
 > 
-> 2.  Notice how `nrow()` gave you the number of rows in a `data.frame`?
-> 
-> <!-- end list -->
+> 2.  Try running `n_rows <- nrow(surveys)`. Notice how `nrow()` gave you the number of rows in a `data.frame`?
 > 
 >   - Use that number to pull out just that last row in the data frame.
 >   - Compare that with what you see as the last row using `tail()` to
@@ -1532,7 +1530,7 @@ correct names of the columns.
 > 
 > > ## Solution
 > > 
-> > survey\_dec\_2000 \<- surveys\[surveys\(month == 12 & surveys\)year
+> > survey\_dec\_2000 \<- surveys\[surveys$month == 12 & surveys$year
 > > == 2000, c(“record\_id”, “genus”, “species”)\]
 > > 
 > > 
