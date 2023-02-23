@@ -27,8 +27,8 @@ latitude: "50.909698"    # latitude of location (Soton: 50.909698)
 longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 
 # Specify the start and end date of the workshop
-humandate: "TBC"      # e.g. "6th August"
-humantime: "TBC"      # e.g. "09:00-17:00"
+humandate: "6th March - 29th March 2023"      # e.g. "6th August"
+humantime: "09:30-13:00"      # e.g. "09:00-17:00"
 startdate: 2023-03-06        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
 enddate: 2023-03-29         # e.g. YYYY-MM-DD
 
@@ -36,13 +36,19 @@ enddate: 2023-03-29         # e.g. YYYY-MM-DD
 # Can be list, or single string
 instructor:
   - "Philippa Broadbent"
-  - "Instructor 2"
+  - "Sam Mangham"
+  - "Ed Parkinson"
+  - "Max Albert"
+  - "Steve Crouch"
 instructor-email:
   - "p.k.broadbent@soton.ac.uk"
-  - "instructor2@domain.com"
+  - "s.mangham@soton.ac.uk"
+  - "e.parkinson@soton.ac.uk"
+  - "m.h.albert@soton.ac.uk"
+  - "stc@ecs.soton.ac.uk"
 helper:
-  - "Helper 1"
-  - "Helper 2"
+  - "Mehtap Özbey Arabaci"
+  - "Hugh Warden"
 # ======================================================================================================================
 
 # Details about the lessons
