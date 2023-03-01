@@ -1471,7 +1471,7 @@ correct names of the columns.
 
 > ## Challenge
 > 
-> 1.  Create a `data.frame` (`surveys_200`) containing only the data in
+>  - Create a `data.frame` (`surveys_200`) containing only the data in
 >     row 200 of the `surveys` dataset.
 > 
 > > ## Solution
@@ -1483,7 +1483,7 @@ correct names of the columns.
 > 
 >
 > 
-> 2.  Try running `n_rows <- nrow(surveys)`. Notice how `nrow()` gave you the number of rows in a `data.frame`?
+> -  Try running `n_rows <- nrow(surveys)`. Notice how `nrow()` gave you the number of rows in a `data.frame`?
 > 
 >   - Use that number to pull out just that last row in the data frame.
 >   - Compare that with what you see as the last row using `tail()` to
@@ -1499,7 +1499,7 @@ correct names of the columns.
 > {: .solution}
 > 
 > 
-> 3.  Use `nrow()` to extract the row that is in the middle of the data
+> -  Use `nrow()` to extract the row that is in the middle of the data
 >     frame. Store the content of this row in an object named
 >     `surveys_middle`.
 > 
@@ -1511,7 +1511,7 @@ correct names of the columns.
 > {: .solution}
 > 
 > 
-> 4.  Combine `nrow()` with the `-` notation above to reproduce the
+> -  Combine `nrow()` with the `-` notation above to reproduce the
 >     behavior of `head(surveys)`, keeping just the first through 6th
 >     rows of the surveys dataset.
 > 
