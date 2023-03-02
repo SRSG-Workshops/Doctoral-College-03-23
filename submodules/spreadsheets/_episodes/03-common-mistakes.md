@@ -117,13 +117,13 @@ Rather than entering data into multiple tabs, try adding another column to your 
 > > data across, as the format and order of the columns are not the same in all of the tables. An example of what you
 > > may end up with is shown below:
 > >
-> > ![solution ex 1](fig/episode3_ex1_sol.png)
+> > ![solution](fig/episode3_ex1_sol.png)
 > >
 > > This format is much easier for data analysis programs to read. Humans will have an easier time as well, since there
 > > is no need to scroll to the right or switch between tabs to find all of the data.
 > >
 > > If you didn't manage to finish in time, or if you just want to look at the solution instead, you can download
-> > the updated [messy survey data](data/messy_survey_data_ex1.xlsx).
+> > the updated [messy survey data](data/messy_survey_data_ep3_ex1.xlsx).
 
 ## <a name="field_name"></a> Using problematic field names
 
@@ -280,10 +280,10 @@ reason they are not, create a new column to specify the units.
 > > -999. In the example below, blank cells are used, but either NULL, NA or None would have be a reasonable choice
 > > as well.
 > >
-> > ![solution](fig/episode3_ex3.png)
+> > ![solution](fig/episode3_ex2.png)
 > >
 > > If you didn't manage to finish in time, or if you just want to look at the solution instead, you can download
-> > the updated [messy survey data](data/messy_survey_data_ex2.xlsx).
+> > the updated [messy survey data](data/messy_survey_data_ep3_ex2.xlsx).
 
 ## <a name="formatting_pretty"></a> Using formatting to make the spreadsheet look pretty
 
@@ -329,10 +329,10 @@ excluded.
 > > should create a new column to track which measurements were with a calibrated measuring device, or probably not as
 > > good, you could instead create a note in the note column mentioning the calibration was not correct.
 > >
-> > ![weight calibrated](fig/episode3_ex3.png)
+> > ![solution](fig/episode3_ex3.png)
 > >
 > > If you didn't manage to finish in time, or if you just want to look at the solution instead, you can download
-> > the updated [messy survey data](data/messy_survey_data_ex3.xlsx).
+> > the updated [messy survey data](data/messy_survey_data_ep3_ex3.xlsx).
 
 {: .testimonial}
 > ## Full & clean dataset

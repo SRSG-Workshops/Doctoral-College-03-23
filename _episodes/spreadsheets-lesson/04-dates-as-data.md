@@ -115,7 +115,7 @@ them.
 {: .challenge}
 > ## Exercise
 >
-> Look at the tab 'dates' in the [messy data spreadsheet](data/messy_survey_data_ex3.xls) you used in previous exercises.
+> Look at the tab 'dates' in the [messy data spreadsheet](data/messy_survey_data.xlsx) you used in previous exercises.
 > It contains a copy of the 'plot 3' table from the '2014' tab (this is the table that contains the problematic dates).
 > You will notice that there are years missing from the "Date collected" column. Just by looking at the entered dates,
 > can you figure out the date format that was used?
@@ -143,7 +143,7 @@ variable.
 {: .challenge}
 > ## Exercise
 >
-> Look at the tab 'dates' in the [messy data spreadsheet](data/messy_survey_data_ex3.xls).
+> Look at the tab 'dates' in the [messy data spreadsheet](data/messy_survey_data.xlsx).
 > It contains a copy of the 'plot 3' table from the '2014' tab (this is the table that contains the problematic dates).
 > Select one of the cells in "Date collected" column, for example cell 'A3'. What is the date Excel thinks is
 > entered? What is the year of the date?

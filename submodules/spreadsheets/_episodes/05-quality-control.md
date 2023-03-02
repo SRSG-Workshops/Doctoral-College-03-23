@@ -11,7 +11,6 @@ keypoints:
   - "Always copy your original spreadsheet file and work with a copy so you do not affect the raw data."
   - "Use data validation to prevent accidentally entering invalid data."
   - "Use sorting to check for invalid data."
-  - "Use conditional formatting (cautiously) to check for invalid data."
 ---
 
 When you have a well-structured data table, you can use several simple
@@ -37,7 +36,7 @@ rules but many others exist. For an overview of data validation rules
 available in Excel, check out the [Excel support page on data validation](https://support.office.com/en-us/article/Apply-data-validation-to-cells-29FECBCC-D1B9-42C1-9D76-EFF3CE5F7249). General steps to employ data validation are as follows.
 
 1.  Open the tab 'semi-cleaned-combined' of the
-    [messy data spreadsheet](data/messy_survey_data_ex3.xls).
+    [messy data spreadsheet](data/messy_survey_data.xlsx).
     It contains tables from the messy data tabs '2013' and '2014' combined into a single table (you may note that data is
     not fully yet cleaned, although it is in a much better shape than it was in the tabs '2013' and '2014').
 
@@ -75,13 +74,13 @@ plot values that are integers between 1 and 24.
 {: .challenge}
 > ## Exercise
 >
-> Set the 'plot_id' column in tab ‘semi-cleaned-combined’ of the [messy data spreadsheet](data/messy_survey_data_ex3.xls)
+> Set the 'plot_id' column in tab ‘semi-cleaned-combined’ of the [messy data spreadsheet](data/messy_survey_data.xlsx)
 > to only allow values that are integers between 1 and 24.
 >
 > {: .solution}
 > > ## Solution
 > >
-> > 1. Open the tab 'semi-cleaned-combined' of [messy data spreadsheet](data/messy_survey_data_ex3.xls) and select the 'plot_id' column.
+> > 1. Open the tab 'semi-cleaned-combined' of [messy data spreadsheet](data/messy_survey_data.xlsx) and select the 'plot_id' column.
 > > 2. On the `Data` tab the top level menu select `Data Validation`, or `Data Tools` and then `Data Validation` or `Validation Tools`
 > >    (depending on your version of Excel) or `Validity` in LibreOffice.
 > > 3. In the `Allow` box of the `Settings` tab select `Whole number` (and in LibreOffice select the `Data` field to be
@@ -118,7 +117,7 @@ values, you can select the right option from the list every time. Let’s apply 
 
 > ## Exercise
 >
-> Restrict the values of the 'species_id' column in tab ‘semi-cleaned-combined’ of the [messy data spreadsheet](data/messy_survey_data_ex3.xls)
+> Restrict the values of the 'species_id' column in tab ‘semi-cleaned-combined’ of the [messy data spreadsheet](data/messy_survey_data.xlsx)
 > to allow only values from the following list: “DM, NL, DS, PP, PE, PF”.
 >
 > {: .solution}
@@ -198,7 +197,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 > ## Exercise
 >
-> Look at the 'semi-cleaned-combined' tab of the [messy data spreadsheet](data/messy_survey_data_ex3.xls). It contains
+> Look at the 'semi-cleaned-combined' tab of the [messy data spreadsheet](data/messy_survey_data.xlsx). It contains
 > tables from the messy data tabs '2013' and '2014' combined into a single table in a single tab (you will note that
 > the data is not yet fully cleaned).
 >
